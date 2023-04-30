@@ -1,0 +1,134 @@
+@import "./components/navbar";
+@import "./components/login";
+@import "./variables";
+@import "./footer/contacto";
+@import "./components/perfil";
+@import "./responsive";
+@import "./components/post";
+@import "./darkMode";
+body {
+    min-height: 100vh;
+    transition: all .5s ease-in-out;
+    a,
+    a:hover {
+        text-decoration: none;
+        color:inherit;
+    }
+    .saludo {
+        text-align: center;
+        width: 66.6%;
+        min-height: 52vh;
+        margin: auto;
+        position: relative;
+        top: 6.7vh;
+        h2 {
+            margin-bottom: 4vh;
+            font-weight: bolder;
+            font-size: clamp(29px, 4vh, 48px);
+        }
+    }
+    h1 {
+        font-size: clamp(18px, 4vh, 48px);
+        b {
+            vertical-align: text-bottom;
+        }
+
+        img {
+            height: clamp(18px, 4vh, 48px);
+            width: clamp(18px, 4vh, 48px);
+            align-items: center;
+        }
+    }
+    h2,
+    b {
+        font-size: clamp(16px, 2.2vw, 42px) !important;
+    }
+    .containerTotal {
+        width: 99.2vw;
+        min-height: 93.3vh;
+        top: 6.7vh;
+        position: absolute;
+    }
+    .postButton {
+        border: 3px solid #00ff1e !important;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 2vw;
+        z-index: 2;
+        height: 51px;
+        width: 51px;
+        position: fixed;
+        bottom: 6.7vh;
+        cursor: auto;
+        right: 0.5vw;
+
+        a {
+            border-radius: 50%;
+            img {
+                cursor: pointer;
+                transform: translate(-9.5px, -9.5px);
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.col-1 {
+    width: 8.33%;
+    margin: auto;
+}
+.col-2 {
+    width: 16.66%;
+    margin: auto;
+}
+.col-3 {
+    width: 25%;
+    margin: auto;
+}
+.col-4 {
+    width: 33.33%;
+    margin: auto;
+}
+.col-5 {
+    width: 41.66%;
+    margin: auto;
+}
+.col-6 {
+    width: 50%;
+    margin: auto;
+}
+.col-7 {
+    width: 58.33%;
+    margin: auto;
+}
+.col-8 {
+    width: 66.66%;
+    margin: auto;
+}
+.col-9 {
+    width: 75%;
+    margin: auto;
+}
+.col-10 {
+    width: 83.33%;
+    margin: auto;
+}
+.col-11 {
+    width: 91.66%;
+    margin: auto;
+}
+.col-12 {
+    width: 100%;
+    margin: auto;
+}
+.col {
+    padding: 0px;
+}
+.goal {
+    align-items: baseline;
+}
+
+.dark{
+    color: rgb(237, 236, 236) !important;
+    background-color:#484b4e !important;
+}
